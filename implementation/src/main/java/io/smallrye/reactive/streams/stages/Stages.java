@@ -4,8 +4,8 @@ import io.smallrye.reactive.streams.operators.Operator;
 import io.smallrye.reactive.streams.operators.ProcessorOperator;
 import io.smallrye.reactive.streams.operators.PublisherOperator;
 import io.smallrye.reactive.streams.operators.TerminalOperator;
-import org.eclipse.microprofile.reactive.streams.spi.Stage;
-import org.eclipse.microprofile.reactive.streams.spi.UnsupportedStageException;
+import org.eclipse.microprofile.reactive.streams.operators.spi.Stage;
+import org.eclipse.microprofile.reactive.streams.operators.spi.UnsupportedStageException;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -38,6 +38,7 @@ public class Stages {
         ALL.add(new ProcessorOperator<>(Stage.DropWhile.class, new DropWhileStageFactory()));
         ALL.add(new ProcessorOperator<>(Stage.Limit.class, new LimitStageFactory()));
         ALL.add(new ProcessorOperator<>(Stage.Skip.class, new SkipStageFactory()));
+        ALL.add(new ProcessorOperator<>(Stage.Coupled.class, new CoupledStageFactory()));
 
         ALL.add(new PublisherOperator<>(Stage.Concat.class, new ConcatStageFactory()));
         ALL.add(new PublisherOperator<>(Stage.Failed.class, new FailedPublisherStageFactory()));
