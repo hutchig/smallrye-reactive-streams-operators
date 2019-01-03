@@ -17,7 +17,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>io.smallrye.reactive</groupId>
+            <groupId>com.ibm.ws.io.smallrye.reactive</groupId>
             <artifactId>smallrye-reactive-streams-operators</artifactId>
             <version>0.2.2-SNAPSHOT</version>
         </dependency>
@@ -32,7 +32,7 @@
             <version>${vertx.version}</version>
         </dependency>
         <dependency>
-            <groupId>io.smallrye.reactive</groupId>
+            <groupId>com.ibm.ws.io.smallrye.reactive</groupId>
             <artifactId>smallrye-reactive-streams-vertx-execution-model</artifactId>
             <version>0.2.2-SNAPSHOT</version>
         </dependency>

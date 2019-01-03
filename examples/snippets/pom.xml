@@ -19,7 +19,7 @@
   <dependencies>
     <dependency>
       <groupId>io.smallrye.reactive</groupId>
-      <artifactId>smallrye-reactive-streams-operators</artifactId>
+      <artifactId>com.ibm.ws.smallrye-reactive-streams-operators</artifactId>
       <version>0.2.2-SNAPSHOT</version>
     </dependency>
   </dependencies>

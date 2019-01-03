@@ -8,6 +8,7 @@
         <version>0.2.2-SNAPSHOT</version>
     </parent>
 
+    <groupId>com.ibm.ws.io.smallrye.reactive</groupId>
     <artifactId>smallrye-reactive-streams-operators</artifactId>
 
     <packaging>jar</packaging>
