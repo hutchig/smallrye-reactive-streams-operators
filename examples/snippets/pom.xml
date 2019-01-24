@@ -5,7 +5,7 @@
 
   <groupId>io.smallrye.reactive</groupId>
   <artifactId>smallrye-reactive-streams-operators-snippets</artifactId>
-  <version>0.4.1-SNAPSHOT</version>
+  <version>1.0.0</version>
 
 
   <properties>
@@ -18,9 +18,9 @@
 
   <dependencies>
     <dependency>
-      <groupId>io.smallrye.reactive</groupId>
-      <artifactId>com.ibm.ws.smallrye-reactive-streams-operators</artifactId>
-      <version>0.4.1-SNAPSHOT</version>
+      <groupId>com.ibm.ws.io.smallrye.reactive</groupId>
+      <artifactId>smallrye-reactive-streams-operators</artifactId>
+      <version>1.0.0</version>
     </dependency>
   </dependencies>
 

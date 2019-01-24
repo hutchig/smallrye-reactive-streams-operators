@@ -3,9 +3,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>io.smallrye.reactive</groupId>
+        <groupId>com.ibm.ws.io.smallrye.reactive</groupId>
         <artifactId>smallrye-reactive-streams-operators-project</artifactId>
-        <version>0.4.1-SNAPSHOT</version>
+        <version>1.0.0</version>
     </parent>
 
     <artifactId>smallrye-reactive-streams-operators-cdi</artifactId>
